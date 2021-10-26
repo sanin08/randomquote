@@ -6,12 +6,21 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-    public static $quotes = array("The Black Knight Always Triumphs! - Monty Python", 
-        "Anyone who has never made a mistake has never tried anything new - Albert Einstein",
-        "Never Stop Exploring - The North Face",
-        "Be yourself; everyone else is already taken - Oscar Wilde",
-        "So many books, so little time - Frank Zappa",
-        "Be the change that you wish to see in the world - Mahatma Gandhi",
+    public static $quotes = array("https://storage.googleapis.com/imagenes_taller2/imagen1.jpg", 
+        "https://storage.googleapis.com/imagenes_taller2/imagen10.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen11.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen12.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen13.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen14.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen15.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen2.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen3.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen4.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen5.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen6.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen7.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen8.jpg",
+        "https://storage.googleapis.com/imagenes_taller2/imagen9.jpg",
     );
 
     public function index()
